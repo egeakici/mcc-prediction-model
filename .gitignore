@@ -1,0 +1,49 @@
+# Source/reference data, derived tables and immutable experiment splits
+/data/
+
+# Generated artifacts: publish only full-run metric CSVs and Markdown reports
+/outputs/*
+!/outputs/metrics/
+/outputs/metrics/*
+!/outputs/metrics/*.csv
+!/outputs/reports/
+/outputs/reports/*
+!/outputs/reports/*.md
+
+# Python environments, bytecode and caches
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+/build/
+/dist/
+
+# Large model/data files, including accidentally saved files outside outputs
+*.parquet
+*.joblib
+*.pkl
+*.pickle
+
+# Local logs, temporary files and delivery notes
+/.tmp/
+*.log
+/DELIVERY.md
+
+# Local settings and credentials
+/.codex/
+/.agents/
+/.aws/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db

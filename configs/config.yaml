@@ -1,0 +1,119 @@
+seed: 42
+paths:
+  manifest: data/MANIFEST.md
+  raw: data/raw
+  reference: data/reference
+  desc_links: data/reference/mcc_desc_to_code.csv
+  taxonomy: data/reference/mcc_reference_snapshot.csv
+  interim: data/interim
+  splits: data/splits
+  models: outputs/models
+  predictions: outputs/predictions
+  metrics: outputs/metrics
+  reports: outputs/reports
+  logs: outputs/logs
+  joblib_temp: outputs/joblib_temp
+sample_paths:
+  interim: outputs/interim_sample
+  splits: outputs/splits_sample
+  models: outputs/models_sample
+  predictions: outputs/predictions_sample
+  metrics: outputs/metrics_sample
+  reports: outputs/reports_sample
+  logs: outputs/logs_sample
+  joblib_temp: outputs/joblib_temp_sample
+files:
+  raw: '{source}.parquet'
+  model_table: model_table.parquet
+  exclusions: exclusions.csv
+  table_summary: table_summary.csv
+  no_code: 'no_code_{source}.parquet'
+  build_info: build_info.json
+  splits: splits.parquet
+  split_info: split_info.json
+  model_dir: tfidf_linearsvc
+  model: model.joblib
+  train_info: train_info.json
+  c_search: c_search.csv
+  predictions: '{model}_{test}.parquet'
+  results: results.csv
+  per_class: 'per_class_{model}_{test}.csv'
+  leakage: leakage.csv
+  report: report_tfidf.md
+  run_log: '{module}.log'
+  config_snapshot: '{module}_config.yaml'
+  verification: verification.json
+sources: [oklahoma, delaware, sunderland]
+required_columns: [source_id, merchant_raw, key_strict, key_loose, intermediary, mcc_code, mcc_desc_norm, mcc_analysis, mcc_generic, mcc_group, record_type, merchant_masked, txn_date, amount]
+link_columns: [source_id, mcc_desc_norm, mcc_code, candidate_code, match_method, match_score, needs_review]
+taxonomy_columns: {code: mcc_code, description: description, group: mcc_group}
+build:
+  sample_method: uniform_without_replacement
+  record_type: card_txn
+  min_key_length: 2
+  code_width: 4
+  code_pattern: '^\d{4}$'
+  add_intermediary: false
+  whitespace_pattern: '\s+'
+  group_columns: [source_id, text, key_loose, label_code, label_group, label_origin]
+  sort_columns: [source_id, text, key_loose, label_code, label_group, label_origin]
+split:
+  hash_algorithm: sha1
+  n_folds: 10
+  anchor_source: oklahoma
+  unused_role: unused
+  train_role: train
+  val_role: val
+  cross_source_tests: [test_de, test_su]
+  roles:
+    train: {source: oklahoma, folds: [0, 1, 2, 3, 4, 5, 6, 7]}
+    val: {source: oklahoma, folds: [8]}
+    test_ok: {source: oklahoma, folds: [9]}
+    test_de: {source: delaware, folds: [9]}
+    test_su: {source: sunderland, folds: [9]}
+train:
+  min_texts_per_class: 5
+  tune_c: true
+  c_values: [0.1, 0.3, 1.0]
+  default_c: 0.3
+  n_jobs: 2
+  joblib_backend: loky
+  inner_max_num_threads: 1
+  return_as: generator
+  pre_dispatch: '2*n_jobs'
+  model_names: [majority, tfidf_linearsvc]
+  svc: {class_weight: null, dual: auto, penalty: l2, loss: squared_hinge, tol: 0.0001, max_iter: 1000, fit_intercept: true, intercept_scaling: 1}
+  vectorizers:
+    char: {analyzer: char_wb, ngram_range: [2, 5], min_df: 2, sublinear_tf: true, lowercase: false, norm: l2, use_idf: true, smooth_idf: true, dtype: float64}
+    word: {analyzer: word, ngram_range: [1, 2], min_df: 2, sublinear_tf: true, token_pattern: '(?u)\b\w+\b', lowercase: false, norm: l2, use_idf: true, smooth_idf: true, dtype: float64}
+  validation_average: macro
+  zero_division: 0
+  joblib_compress: 3
+evaluate:
+  test_sets: [test_ok, test_de, test_su]
+  top_k: 3
+  batch_size: 4096
+  min_merchants_per_class: 5
+  bootstrap_replicates: 1000
+  confidence_level: 0.95
+  bootstrap_percentile_method: linear
+  zero_division: 0
+  origins: [original, linked]
+  seen_values: [true, false]
+  tie_policy: lexical_ascending
+leakage:
+  source: oklahoma
+  sample_rows: 1000000
+  smoke_sample_rows: 50000
+  test_size: 0.2
+  comparison_test: test_ok
+report:
+  top_errors: 15
+  table_format: github
+  float_format: '.6f'
+runtime:
+  collect_engine: streaming
+  parquet_compression: zstd
+  progress_interval: 0.5
+  hash_chunk_size: 1048576
+  encoding: utf-8

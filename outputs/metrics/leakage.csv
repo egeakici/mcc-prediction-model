@@ -1,0 +1,3 @@
+protocol,acc_rows,acc_merchant,sample_rows,train_records,test_records,test_rows,test_rows_seen_in_train_share,selected_c,class_count,convergence_warning_count
+random_raw_row_split,0.927775,,1000000,799868,200000.0,200000.0,0.952855,0.3,222,47
+merchant_grouped_test_ok,0.5864631528896972,0.42982925813552264,,,18291.0,601499.0,0.0,0.3,233,

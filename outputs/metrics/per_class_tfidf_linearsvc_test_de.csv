@@ -1,0 +1,217 @@
+code,description,support,precision,recall,f1,macro_f1_eligible
+0742,Veterinary Services,15,0.55,0.7333333333333333,0.6285714285714286,true
+0763,Agricultural Co-operatives,6,0.0,0.0,0.0,true
+0780,Landscaping and Horticultural Services,14,0.375,0.21428571428571427,0.2727272727272727,true
+1520,General Contractors – Residential and Commercial,0,0.0,0.0,0.0,false
+1711,"Heating, Plumbing, and Air Conditioning Contractors",0,0.0,0.0,0.0,false
+1731,Electrical Contractors,5,0.0,0.0,0.0,true
+1750,Carpentry Contractors,1,0.0,0.0,0.0,false
+1761,"Roofing, Siding, and Sheet Metal Work Contractors",4,0.6666666666666666,0.5,0.5714285714285714,false
+1771,Concrete Work Contractors,0,0.0,0.0,0.0,false
+1799,Special Trade Contractors (Not Elsewhere,40,0.4666666666666667,0.175,0.2545454545454545,true
+2741,Miscellaneous Publishing and Printing,66,0.23376623376623376,0.2727272727272727,0.2517482517482518,true
+2791,"Typesetting, Plate Making and Related Services",3,0.0,0.0,0.0,false
+4011,Railroads,0,0.0,0.0,0.0,false
+4112,Passenger Railways,0,0.0,0.0,0.0,false
+4119,Ambulance Services,2,0.0,0.0,0.0,false
+4121,Taxicabs and Limousines,0,0.0,0.0,0.0,false
+4214,"Motor Freight Carriers and Trucking – Local and Long Distance, Moving and Storage Companies, and Local Delivery Services",0,0.0,0.0,0.0,false
+4215,"Courier Services – Air and Ground, and Freight Forwarders",0,0.0,0.0,0.0,false
+4225,"Public Warehousing and Storage – Farm Products, Refrigerated Goods, Household Goods, and Storage",0,0.0,0.0,0.0,false
+4411,Steamship and Cruise Lines,0,0.0,0.0,0.0,false
+4468,"Marinas, Marine Service, and Supplies",20,0.4666666666666667,0.35,0.4,true
+4511,Airlines and Air Carriers (Not Elsewhere,0,0.0,0.0,0.0,false
+4784,Tolls and Bridge Fees,5,1.0,0.6,0.75,true
+4789,Transportation Services (Not Elsewhere,29,0.6666666666666666,0.3448275862068966,0.45454545454545453,true
+4812,Telecommunication Equipment and Telephone Sales,0,0.0,0.0,0.0,false
+4814,"Telecommunication Services, including Local and Long-Distance Calls, Credit Card Calls, Calls Through Use of Magnetic-Stripe-Reading",0,0.0,0.0,0.0,false
+4816,Computer Network/Information Services,17,0.23529411764705882,0.23529411764705882,0.23529411764705882,true
+4899,"Cable, Satellite and Other Pay Television/Radio/Streaming Services",0,0.0,0.0,0.0,false
+5013,Motor Vehicle Supplies and New Parts,12,0.0,0.0,0.0,true
+5021,Office and Commercial Furniture,13,0.6,0.23076923076923078,0.3333333333333333,true
+5039,Construction Materials (Not Elsewhere Classified),34,0.3157894736842105,0.17647058823529413,0.22641509433962265,true
+5045,Computers and Computer Peripheral Equipment and Software,74,0.3137254901960784,0.21621621621621623,0.256,true
+5046,Commercial Equipment (Not Elsewhere Classified),93,0.21428571428571427,0.25806451612903225,0.23414634146341465,true
+5051,Metal Service Centers and Offices,3,0.09090909090909091,0.3333333333333333,0.14285714285714285,false
+5065,Electrical Parts and Equipment,63,0.25333333333333335,0.30158730158730157,0.2753623188405797,true
+5072,"Hardware, Equipment and Supplies",43,0.20833333333333334,0.11627906976744186,0.14925373134328357,true
+5074,Plumbing and Heating Equipment and Supplies,23,0.46153846153846156,0.2608695652173913,0.3333333333333333,true
+5085,Industrial Supplies (Not Elsewhere Classified),118,0.28169014084507044,0.1694915254237288,0.21164021164021163,true
+5094,"Precious Stones and Metals, Watches and Jewelry",1,0.0,0.0,0.0,false
+5099,Durable Goods (Not Elsewhere Classified),99,0.1111111111111111,0.1111111111111111,0.1111111111111111,true
+5111,"Stationery, Office Supplies, Printing and Writing Paper",0,0.0,0.0,0.0,false
+5122,"Drugs, Drug Proprietaries, and Druggist Sundries",0,0.0,0.0,0.0,false
+5131,"Piece Goods, Notions, and Other Dry Goods",4,0.5,0.25,0.3333333333333333,false
+5137,"Men’s, Women’s, and Children’s Uniforms and Commercial Clothing",0,0.0,0.0,0.0,false
+5139,Commercial Footwear,4,0.0,0.0,0.0,false
+5169,Chemicals and Allied Products (Not Elsewhere,0,0.0,0.0,0.0,false
+5172,Petroleum and Petroleum Products,0,0.0,0.0,0.0,false
+5192,"Books, Periodicals and Newspapers",55,0.25,0.18181818181818182,0.21052631578947367,true
+5193,"Florists Supplies, Nursery Stock and Flowers",0,0.0,0.0,0.0,false
+5198,"Paints, Varnishes and Supplies",0,0.0,0.0,0.0,false
+5199,Nondurable Goods (Not Elsewhere Classified),33,0.13636363636363635,0.09090909090909091,0.10909090909090909,true
+5200,Home Supply Warehouse Stores,8,0.4,0.25,0.3076923076923077,true
+5211,Lumber and Building Materials Stores,16,0.3888888888888889,0.4375,0.4117647058823529,true
+5231,"Glass, Paint, and Wallpaper Stores",8,0.4,0.5,0.4444444444444444,true
+5251,Hardware Stores,47,0.3050847457627119,0.3829787234042553,0.33962264150943394,true
+5261,Nurseries and Lawn and Garden Supply Stores,31,0.0,0.0,0.0,true
+5300,Wholesale Clubs,5,1.0,0.8,0.8888888888888888,true
+5309,Duty Free Stores,1,0.0,0.0,0.0,false
+5310,Discount Stores,13,0.6,0.23076923076923078,0.3333333333333333,true
+5311,Department Stores,10,0.6363636363636364,0.7,0.6666666666666666,true
+5331,Variety Stores,29,0.19047619047619047,0.13793103448275862,0.16,true
+5399,Miscellaneous General Merchandise,144,0.1864406779661017,0.1527777777777778,0.16793893129770993,true
+5411,Grocery Stores and Supermarkets,78,0.5555555555555556,0.44871794871794873,0.49645390070921985,true
+5422,Freezer and Locker Meat Provisioners,4,0.5,0.25,0.3333333333333333,false
+5441,"Candy, Nut, and Confectionery Stores",16,0.5454545454545454,0.375,0.4444444444444444,true
+5451,Dairy Products Stores,3,0.0,0.0,0.0,false
+5462,Bakeries,39,0.5128205128205128,0.5128205128205128,0.5128205128205128,true
+5511,"Car and Truck Dealers (New and Used) Sales, Service, Repairs, Parts, and Leasing",0,0.0,0.0,0.0,false
+5521,"Car and Truck Dealers (Used Only) Sales, Service, Repairs, Parts, and Leasing",5,0.5,0.2,0.2857142857142857,true
+5532,Automotive Tire Stores,6,0.45454545454545453,0.8333333333333334,0.5882352941176471,true
+5533,Automotive Parts and Accessories Stores,54,0.28378378378378377,0.3888888888888889,0.328125,true
+5541,Service Stations (With or without Ancillary Services),43,0.1836734693877551,0.20930232558139536,0.1956521739130435,true
+5542,Automated Fuel Dispensers,83,0.5434782608695652,0.6024096385542169,0.5714285714285714,true
+5551,Boat Dealers,2,0.0,0.0,0.0,false
+5561,"Camper, Recreational and Utility Trailer Dealers",2,0.3333333333333333,0.5,0.4,false
+5571,Motorcycle Shops and Dealers,4,0.0,0.0,0.0,false
+5611,Men’s and Boys’ Clothing and Accessories Stores,9,1.0,0.1111111111111111,0.2,true
+5621,Women’s Ready-To-Wear Stores,4,0.3333333333333333,0.25,0.2857142857142857,false
+5631,Women’s Accessory and Specialty Shops,4,0.0,0.0,0.0,false
+5641,Children’s and Infants’ Wear Stores,8,1.0,0.125,0.2222222222222222,true
+5651,Family Clothing Stores,9,0.0,0.0,0.0,true
+5655,Sports and Riding Apparel Stores,9,0.2,0.2222222222222222,0.21052631578947367,true
+5661,Shoe Stores,18,0.6666666666666666,0.4444444444444444,0.5333333333333333,true
+5691,Men’s and Women’s Clothing Stores,46,0.21951219512195122,0.1956521739130435,0.20689655172413793,true
+5697,"Tailors, Seamstresses, Mending, and Alterations",5,0.0,0.0,0.0,true
+5698,Wig and Toupee Stores,0,0.0,0.0,0.0,false
+5699,Miscellaneous Apparel and Accessory Shops,60,0.0,0.0,0.0,true
+5712,"Furniture, Home Furnishings, and Equipment Stores, Except Appliances",0,0.0,0.0,0.0,false
+5713,Floor Covering Stores,8,0.0,0.0,0.0,true
+5714,"Drapery, Window Covering, and Upholstery Stores",3,0.4,0.6666666666666666,0.5,false
+5718,"Fireplace, Fireplace Screens and Accessories Stores",0,0.0,0.0,0.0,false
+5719,Miscellaneous Home Furnishing Specialty Stores,20,0.5,0.15,0.23076923076923078,true
+5722,Household Appliance Stores,23,0.35294117647058826,0.2608695652173913,0.3,true
+5732,Electronics Stores,106,0.20238095238095238,0.32075471698113206,0.24817518248175183,true
+5733,"Music Stores – Musical Instruments, Pianos, and Sheet Music",13,0.35294117647058826,0.46153846153846156,0.4,true
+5734,Computer Software Stores,218,0.38188976377952755,0.44495412844036697,0.4110169491525424,true
+5735,Record Stores,3,0.0,0.0,0.0,false
+5811,Caterers,34,0.5416666666666666,0.38235294117647056,0.4482758620689655,true
+5812,Eating Places and Restaurants,2873,0.822104466313399,0.7560041768186565,0.7876699909338168,true
+5814,Fast Food Restaurants,628,0.576837416481069,0.4124203821656051,0.4809656453110492,true
+5815,"Digital Goods Media – Books, Movies, Digital artwork/images, Music",0,0.0,0.0,0.0,false
+5816,Digital Goods – Games,0,0.0,0.0,0.0,false
+5912,Drug Stores and Pharmacies,16,0.6666666666666666,0.625,0.6451612903225806,true
+5931,Used Merchandise and Secondhand Stores,12,0.5,0.3333333333333333,0.4,true
+5932,"Antique Shops – Sales, Repairs, and Restoration Services",5,0.0,0.0,0.0,true
+5940,Bicycle Shops – Sales and Service,4,1.0,0.75,0.8571428571428571,false
+5941,Sporting Goods Stores,104,0.3671875,0.4519230769230769,0.4051724137931034,true
+5942,Book Stores,69,0.41379310344827586,0.34782608695652173,0.3779527559055118,true
+5943,"Stationery Stores, Office and School Supply Stores",36,0.3333333333333333,0.08333333333333333,0.13333333333333333,true
+5945,"Hobby, Toy, and Game Shops",37,0.48,0.32432432432432434,0.3870967741935484,true
+5946,Camera and Photographic Supply Stores,12,0.3333333333333333,0.3333333333333333,0.3333333333333333,true
+5947,"Gift, Card, Novelty and Souvenir Shops",56,0.3333333333333333,0.14285714285714285,0.2,true
+5948,Luggage and Leather Goods Stores,2,0.5,0.5,0.5,false
+5949,"Sewing, Needlework, Fabric and Piece Goods Stores",10,0.3333333333333333,0.4,0.36363636363636365,true
+5950,Glassware/Crystal Stores,2,0.0,0.0,0.0,false
+5964,Direct Marketing – Catalog Merchant,32,0.25,0.28125,0.2647058823529412,true
+5965,Direct Marketing – Combination Catalog and Retail Merchant,0,0.0,0.0,0.0,false
+5968,Direct Marketing – Continuity/Subscription Merchant,30,0.28,0.4666666666666667,0.35,true
+5969,Direct Marketing – Other Direct Marketers (Not,39,0.0,0.0,0.0,true
+5970,Artists’ Supply and Craft Shops,19,0.25,0.15789473684210525,0.1935483870967742,true
+5971,Art Dealers and Galleries,6,0.3333333333333333,0.16666666666666666,0.2222222222222222,true
+5973,Religious Goods Stores,0,0.0,0.0,0.0,false
+5975,"Hearing Aids – Sales, Service, and Supply",2,1.0,0.5,0.6666666666666666,false
+5976,Orthopedic Goods – Prosthetic Devices,3,0.0,0.0,0.0,false
+5977,Cosmetic Stores,6,1.0,0.16666666666666666,0.2857142857142857,true
+5992,Florists,15,0.631578947368421,0.8,0.7058823529411765,true
+5993,Cigar Stores and Stands,0,0.0,0.0,0.0,false
+5994,News Dealers and Newsstands,40,0.6666666666666666,0.15,0.24489795918367346,true
+5995,"Pet Shops, Pet Foods and Supplies Stores",25,0.6,0.36,0.45,true
+5996,Swimming Pools – Sales and Service,10,1.0,0.8,0.8888888888888888,true
+5998,Tent and Awning Shops,1,0.0,0.0,0.0,false
+5999,Miscellaneous and Specialty Retail Shops,241,0.13744075829383887,0.24066390041493776,0.17496229260935142,true
+6300,"Insurance Sales, Underwriting, and Premiums",9,0.2857142857142857,0.2222222222222222,0.25,true
+6513,Real Estate Agents and Managers,0,0.0,0.0,0.0,false
+7011,"Lodging – Hotels, Motels, Resorts, Central",3,0.006666666666666667,0.6666666666666666,0.013201320132013201,false
+7032,Sporting and Recreational Camps,3,0.0,0.0,0.0,false
+7210,"Laundry, Cleaning, and Garment Services",2,0.0,0.0,0.0,false
+7211,Laundries – Family and Commercial,1,0.0,0.0,0.0,false
+7216,Dry Cleaners,9,0.8888888888888888,0.8888888888888888,0.8888888888888888,true
+7217,Carpet and Upholstery Cleaning,3,0.0,0.0,0.0,false
+7221,Photographic Studios,9,0.0,0.0,0.0,true
+7230,Beauty and Barber Shops,9,1.0,0.1111111111111111,0.2,true
+7261,Funeral Services and Crematories,5,0.8,0.8,0.8,true
+7277,"Counseling Services – Debt, Marriage, and Personal",2,0.0,0.0,0.0,false
+7278,Buying and Shopping Services and Clubs,1,0.0,0.0,0.0,false
+7296,"Clothing Rental – Costumes, Uniforms, Formal Wear",2,0.0,0.0,0.0,false
+7298,Health and Beauty Spas,1,0.0,0.0,0.0,false
+7299,Miscellaneous Personal Services (Not Elsewhere,84,0.3333333333333333,0.14285714285714285,0.2,true
+7311,Advertising Services,43,0.21052631578947367,0.27906976744186046,0.24,true
+7321,Consumer Credit Reporting Agencies,3,1.0,0.3333333333333333,0.5,false
+7333,"Commercial Photography, Art, and Graphics",32,0.25,0.09375,0.13636363636363635,true
+7338,"Quick Copy, Reproduction, and Blueprinting Services",6,0.25,0.16666666666666666,0.2,true
+7339,Stenographic and Secretarial Support,1,0.0,0.0,0.0,false
+7342,Exterminating and Disinfecting Services,8,0.6666666666666666,0.5,0.5714285714285714,true
+7349,"Cleaning, Maintenance, and Janitorial Services",12,0.4,0.16666666666666666,0.23529411764705882,true
+7361,Employment Agencies and Temporary Help Services,8,0.0,0.0,0.0,true
+7372,"Computer Programming, Data Processing, and Integrated Systems Design Services",0,0.0,0.0,0.0,false
+7375,Information Retrieval Services,6,0.0,0.0,0.0,true
+7379,"Computer Maintenance, Repair and Services (Not",0,0.0,0.0,0.0,false
+7392,"Management, Consulting, and Public Relations Services",0,0.0,0.0,0.0,false
+7394,"Equipment, Tool, Furniture, and Appliance Rental and Leasing",0,0.0,0.0,0.0,false
+7395,Photofinishing Laboratories and Photo Developing,2,0.0,0.0,0.0,false
+7399,Business Services (Not Elsewhere Classified),300,0.3937007874015748,0.5,0.44052863436123346,true
+7512,Automobile Rental Agency,0,0.0,0.0,0.0,false
+7513,Truck and Utility Trailer Rentals,0,0.0,0.0,0.0,false
+7523,"Parking Lots, Parking Meters and Garages",115,0.6836734693877551,0.5826086956521739,0.6291079812206573,true
+7531,Automotive Body Repair Shops,7,0.0,0.0,0.0,true
+7538,Automotive Service Shops (Non-Dealer),37,0.3333333333333333,0.32432432432432434,0.3287671232876712,true
+7542,Car Washes,9,0.7272727272727273,0.8888888888888888,0.8,true
+7549,Towing Services,3,0.0,0.0,0.0,false
+7622,Electronics Repair Shops,2,0.0,0.0,0.0,false
+7623,Air Conditioning and Refrigeration Repair Shops,3,0.0,0.0,0.0,false
+7629,Electrical and Small Appliance Repair Shops,6,0.0,0.0,0.0,true
+7692,Welding Services,3,0.0,0.0,0.0,false
+7699,Miscellaneous Repair Shops and Related Services,11,0.16666666666666666,0.09090909090909091,0.11764705882352941,true
+7829,Motion Picture and Video Tape Production and Distribution,4,0.5,0.25,0.3333333333333333,false
+7832,Motion Picture Theaters,6,0.5,0.8333333333333334,0.625,true
+7911,"Dance Halls, Studios and Schools",2,0.0,0.0,0.0,false
+7933,Bowling Alleys,6,0.6666666666666666,0.6666666666666666,0.6666666666666666,true
+7991,Tourist Attractions and Exhibits,18,0.1282051282051282,0.2777777777777778,0.17543859649122806,true
+7992,Public Golf Courses,5,0.25,0.2,0.2222222222222222,true
+7993,Video Amusement Game Supplies,1,0.0,0.0,0.0,false
+7994,Video Game Arcades/Establishments,5,0.0,0.0,0.0,true
+7997,"Membership Clubs (Sports, Recreation, Athletic), Country Clubs, and Private Golf Courses",0,0.0,0.0,0.0,false
+7999,Recreation Services (Not Elsewhere Classified),22,0.0,0.0,0.0,true
+8011,Doctors and Physicians (Not Elsewhere,40,0.5,0.05,0.09090909090909091,true
+8021,Dentists and Orthodontists,12,0.6666666666666666,0.5,0.5714285714285714,true
+8042,Optometrists and Ophthalmologists,15,0.6666666666666666,0.4,0.5,true
+8043,"Opticians, Optical Goods, and Eyeglasses",6,0.0,0.0,0.0,true
+8049,Podiatrists and Chiropodists,1,0.0,0.0,0.0,false
+8050,"Nursing, Home Healthcare and Personal Care Facilities",1,0.0,0.0,0.0,false
+8062,Hospitals,4,0.6666666666666666,0.5,0.5714285714285714,false
+8071,Medical and Dental Laboratories,10,0.3333333333333333,0.3,0.3157894736842105,true
+8099,Medical Services and Health Practitioners (Not,0,0.0,0.0,0.0,false
+8111,Legal Services and Attorneys,7,0.0,0.0,0.0,true
+8211,Elementary and Secondary Schools,19,0.5,0.05263157894736842,0.09523809523809523,true
+8220,"Colleges, Universities, Professional Schools, and Junior Colleges",0,0.0,0.0,0.0,false
+8241,Correspondence Schools,3,0.0,0.0,0.0,false
+8244,Business and Secretarial Schools,5,0.0,0.0,0.0,true
+8249,Vocational and Trade Schools,12,0.3333333333333333,0.08333333333333333,0.13333333333333333,true
+8299,Schools and Educational Services (Not Elsewhere,0,0.0,0.0,0.0,false
+8351,Child Care Services,4,0.0,0.0,0.0,false
+8398,Charitable Social Service Organizations,264,0.515625,0.125,0.20121951219512196,true
+8641,"Civic, Social, and Fraternal Associations",65,0.21428571428571427,0.13846153846153847,0.16822429906542055,true
+8651,Political Organizations,1,0.0,0.0,0.0,false
+8661,Religious Organizations,2,0.3333333333333333,0.5,0.4,false
+8675,Automobile Associations,1,0.0,0.0,0.0,false
+8699,Membership Organizations (Not Elsewhere,171,0.3950617283950617,0.5614035087719298,0.463768115942029,true
+8911,"Architectural, Engineering, and Surveying Services",7,0.4,0.2857142857142857,0.3333333333333333,true
+8931,"Accounting, Auditing, and Bookkeeping Services",13,0.2,0.07692307692307693,0.1111111111111111,true
+8999,Professional Services (Not Elsewhere Classified),127,0.07086614173228346,0.14173228346456693,0.09448818897637795,true
+9211,"Court Costs, Including Alimony and Child Support",1,0.0,0.0,0.0,false
+9222,Fines,1,0.0,0.0,0.0,false
+9311,Tax Payments,2,0.0,0.0,0.0,false
+9399,Government Services (Not Elsewhere Classified),95,0.45045045045045046,0.5263157894736842,0.4854368932038835,true
+9402,Postal Services – Government Only,2,0.6666666666666666,1.0,0.8,false
